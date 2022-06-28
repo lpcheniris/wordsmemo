@@ -1,0 +1,35 @@
+.rememberWrapper {
+    margin-top: 20%;
+}
+.word {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 20px 40px;
+}
+
+.option {
+    text-align: left;
+    margin: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.right {
+    background: rgba(63, 236, 132, 0.4);
+}
+.wrong {
+    background: rgba(255,0,0, 0.23);
+}
+.normalOption {
+    background: #323b42;
+}
+.optionText {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 5;
+}

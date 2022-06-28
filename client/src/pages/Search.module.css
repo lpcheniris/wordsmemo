@@ -1,0 +1,15 @@
+.searchWrapper input, button{
+    margin-right: 10px;
+}
+
+.searchWrapper {
+    margin-top: 20%;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-30px);
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.toast {
+    background-color: #3fecdc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+    /* display: none; */
+}
+
+.toastAppear {
+  animation-duration: 2s;
+  animation-name: appear;
+  display: block;
+  /* color: blue; */
+}
+.toastDisappear {
+    animation-duration: 2s;
+    animation-name: disappear;
+    display: none;  
+    /* color: rebeccapurple; */
+}
+
+@keyframes appear {
+    from {
+      top: 0px;
+      opacity: 0
+    }
+    to {
+      top: 20px;
+      opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    from {
+        top: 20px;
+        opacity: 1;
+    }
+    to {
+        top: 0px;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.buttonWrapper {
+    text-align: center;
+}
+.buttonWrapper button {
+    margin: 20px;
+}
+
+.queryText {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20%;
+}
+.congratulations {
+    margin: 50% 30px auto 30px;
+}
